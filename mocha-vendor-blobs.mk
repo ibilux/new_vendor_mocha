@@ -23,11 +23,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/bin/sensor_select.sh:system/bin/sensor_select.sh \
     vendor/xiaomi/mocha/proprietary/bin/set_light_sensor_perm.sh:system/bin/set_light_sensor_perm.sh \
     vendor/xiaomi/mocha/proprietary/bin/ussr_setup.sh:system/bin/ussr_setup.sh \
-  vendor/xiaomi/mocha/proprietary/etc/bluetooth/bdaddr:system/etc/bluetooth/bdaddr \
-    vendor/xiaomi/mocha/proprietary/etc/enctune.conf:system/etc/enctune.conf \
+  vendor/xiaomi/mocha/proprietary/etc/enctune.conf:system/etc/enctune.conf \
     vendor/xiaomi/mocha/proprietary/etc/firmware/BCM4350C0.hcd:system/etc/firmware/BCM4350C0.hcd \
     vendor/xiaomi/mocha/proprietary/etc/firmware/bq27520_atl.bqfs:system/etc/firmware/bq27520_atl.bqfs \
     vendor/xiaomi/mocha/proprietary/etc/firmware/bq27520_lgc.bqfs:system/etc/firmware/bq27520_lgc.bqfs \
+    vendor/xiaomi/mocha/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
+    vendor/xiaomi/mocha/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
     vendor/xiaomi/mocha/proprietary/etc/firmware/lp5521:system/etc/firmware/lp5521 \
     vendor/xiaomi/mocha/proprietary/etc/firmware/nvram.txt:system/etc/firmware/nvram.txt \
     vendor/xiaomi/mocha/proprietary/etc/firmware/tfa9890.config:system/etc/firmware/tfa9890.config \
@@ -44,6 +45,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/etc/firmware/tfa9890_right_voice.preset:system/etc/firmware/tfa9890_right_voice.preset \
     vendor/xiaomi/mocha/proprietary/etc/firmware/tfa9890_rom.patch:system/etc/firmware/tfa9890_rom.patch \
     vendor/xiaomi/mocha/proprietary/etc/firmware/nvavp_aud_ucode.bin:system/etc/firmware/nvavp_aud_ucode.bin \
+    vendor/xiaomi/mocha/proprietary/etc/firmware/nvavp_aacdec_ucode.bin:system/etc/firmware/nvavp_aacdec_ucode.bin \
+    vendor/xiaomi/mocha/proprietary/etc/firmware/nvavp_mp3dec_ucode.bin:system/etc/firmware/nvavp_mp3dec_ucode.bin \
     vendor/xiaomi/mocha/proprietary/etc/firmware/nvavp_os_0ff00000.bin:system/etc/firmware/nvavp_os_0ff00000.bin \
     vendor/xiaomi/mocha/proprietary/etc/firmware/nvavp_os_8ff00000.bin:system/etc/firmware/nvavp_os_8ff00000.bin \
     vendor/xiaomi/mocha/proprietary/etc/firmware/nvavp_os_eff00000.bin:system/etc/firmware/nvavp_os_eff00000.bin \
@@ -56,6 +59,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/etc/firmware/tegra12x/nvhost_msenc031.fw:system/etc/firmware/tegra12x/nvhost_msenc031.fw \
     vendor/xiaomi/mocha/proprietary/etc/firmware/tegra12x/nvhost_tsec.fw:system/etc/firmware/tegra12x/nvhost_tsec.fw \
     vendor/xiaomi/mocha/proprietary/etc/firmware/tegra12x/vic03_ucode.bin:system/etc/firmware/tegra12x/vic03_ucode.bin \
+    vendor/xiaomi/mocha/proprietary/etc/hdcpsrm/hdcp1x.srm:system/etc/hdcpsrm/hdcp1x.srm \
+    vendor/xiaomi/mocha/proprietary/etc/hdcpsrm/hdcp2x.srm:system/etc/hdcpsrm/hdcp2x.srm \
+    vendor/xiaomi/mocha/proprietary/etc/hdcpsrm/hdcp2xtest.srm:system/etc/hdcpsrm/hdcp2xtest.srm \
+    vendor/xiaomi/mocha/proprietary/etc/ussrd.conf:system/etc/ussrd.conf \
     vendor/xiaomi/mocha/proprietary/vendor/lib/hw/gralloc.tegra.so:system/vendor/lib/hw/gralloc.tegra.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/hw/hwcomposer.tegra.so:system/vendor/lib/hw/hwcomposer.tegra.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libglcore.so:system/vendor/lib/libglcore.so \
@@ -98,9 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/xiaomi/mocha/proprietary/etc/hdcpsrm/hdcp1x.srm:system/etc/hdcpsrm/hdcp1x.srm \
-    vendor/xiaomi/mocha/proprietary/etc/hdcpsrm/hdcp2x.srm:system/etc/hdcpsrm/hdcp2x.srm \
-    vendor/xiaomi/mocha/proprietary/etc/hdcpsrm/hdcp2xtest.srm:system/etc/hdcpsrm/hdcp2xtest.srm \
     vendor/xiaomi/mocha/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
     vendor/xiaomi/mocha/proprietary/lib/hw/keystore.tegra.so:system/lib/hw/keystore.tegra.so \
     vendor/xiaomi/mocha/proprietary/lib/hw/camera.vendor.tegra.so:system/lib/hw/camera.vendor.tegra.so \
@@ -108,6 +112,36 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/lib/hw/ts.default.so:system/lib/hw/ts.default.so \
     vendor/xiaomi/mocha/proprietary/lib/hw/sensors.lsm6db0.so:system/lib/libsensors.lsm6db0.so \
     vendor/xiaomi/mocha/proprietary/lib/hw/sensors.mpu6515.so:system/lib/libsensors.mpu6515.so \
+    vendor/xiaomi/mocha/proprietary/lib/libFaceProc.so:system/lib/libFaceProc.so \
+    vendor/xiaomi/mocha/proprietary/lib/libbeautify.so:system/lib/libbeautify.so \
+    vendor/xiaomi/mocha/proprietary/lib/libbt-client-api.so:system/lib/libbt-client-api.so \
+    vendor/xiaomi/mocha/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
+    vendor/xiaomi/mocha/proprietary/lib/libmllite.so:system/lib/libmllite.so \
+    vendor/xiaomi/mocha/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
+    vendor/xiaomi/mocha/proprietary/lib/libnvoice.so:system/lib/libnvoice.so \
+    vendor/xiaomi/mocha/proprietary/lib/libopencv24_tegra.so:system/lib/libopencv24_tegra.so \
+    vendor/xiaomi/mocha/proprietary/lib/libtbb.so:system/lib/libtbb.so \
+    vendor/xiaomi/mocha/proprietary/lib/librm31080.so:system/lib/librm31080.so \
+    vendor/xiaomi/mocha/proprietary/lib/librm_ts_service.so:system/lib/librm_ts_service.so \
+    vendor/xiaomi/mocha/proprietary/lib/para_10_04_00_10.so:system/lib/para_10_04_00_10.so \
+    vendor/xiaomi/mocha/proprietary/lib/para_10_06_00_b0.so:system/lib/para_10_06_00_b0.so \
+    vendor/xiaomi/mocha/proprietary/lib/para_10_03_00_b0.so:system/lib/para_10_03_00_b0.so \
+    vendor/xiaomi/mocha/proprietary/lib/para_10_03_00_10.so:system/lib/para_10_03_00_10.so \
+    vendor/xiaomi/mocha/proprietary/lib/para_10_08_00_20.so:system/lib/para_10_08_00_20.so \
+    vendor/xiaomi/mocha/proprietary/lib/para_10_05_00_c0.so:system/lib/para_10_05_00_c0.so \
+    vendor/xiaomi/mocha/proprietary/lib/para_10_09_00_c0.so:system/lib/para_10_09_00_c0.so \
+    vendor/xiaomi/mocha/proprietary/lib/para_10_08_00_10.so:system/lib/para_10_08_00_10.so \
+    vendor/xiaomi/mocha/proprietary/lib/para_10_02_00_b0.so:system/lib/para_10_02_00_b0.so \
+    vendor/xiaomi/mocha/proprietary/lib/para_10_03_00_20.so:system/lib/para_10_03_00_20.so \
+    vendor/xiaomi/mocha/proprietary/lib/para_10_02_00_10.so:system/lib/para_10_02_00_10.so \
+    vendor/xiaomi/mocha/proprietary/lib/para_10_04_00_b0.so:system/lib/para_10_04_00_b0.so \
+    vendor/xiaomi/mocha/proprietary/lib/para_10_04_00_c0.so:system/lib/para_10_04_00_c0.so \
+    vendor/xiaomi/mocha/proprietary/lib/para_10_02_00_20.so:system/lib/para_10_02_00_20.so \
+    vendor/xiaomi/mocha/proprietary/lib/para_10_09_01_c0.so:system/lib/para_10_09_01_c0.so \
+    vendor/xiaomi/mocha/proprietary/lib/para_10_07_00_b0.so:system/lib/para_10_07_00_b0.so \
+    vendor/xiaomi/mocha/proprietary/lib/para_10_04_00_20.so:system/lib/para_10_04_00_20.so \
+    vendor/xiaomi/mocha/proprietary/lib/para_10_08_00_b0.so:system/lib/para_10_08_00_b0.so \
+    vendor/xiaomi/mocha/proprietary/lib/nvcms/device.cfg:system/lib/nvcms/device.cfg \
     vendor/xiaomi/mocha/proprietary/usr/keylayout/tegra-rt5671_headphone_detect.kl:system/usr/keylayout/tegra-rt5671_headphone_detect.kl \
     vendor/xiaomi/mocha/proprietary/usr/keylayout/atmel-maxtouch.kl:system/usr/keylayout/atmel-maxtouch.kl \
     vendor/xiaomi/mocha/proprietary/usr/keylayout/synaptics_dsx.kl:system/usr/keylayout/synaptics_dsx.kl
