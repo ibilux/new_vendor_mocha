@@ -105,6 +105,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/xiaomi/mocha/proprietary/vendor/bin/btmacwriter:system/vendor/bin/btmacwriter \
+    vendor/xiaomi/mocha/proprietary/vendor/bin/hdcp_test:system/vendor/bin/hdcp_test \
+    vendor/xiaomi/mocha/proprietary/vendor/bin/nv_hciattach:system/vendor/bin/nv_hciattach \
+    vendor/xiaomi/mocha/proprietary/vendor/bin/nvcgcserver:system/vendor/bin/nvcgcserver \
+    vendor/xiaomi/mocha/proprietary/vendor/bin/pbc:system/vendor/bin/pbc \
+    vendor/xiaomi/mocha/proprietary/vendor/bin/tegrastats:system/vendor/bin/tegrastats \
+    vendor/xiaomi/mocha/proprietary/vendor/bin/tlk_daemon:system/vendor/bin/tlk_daemon \
+    vendor/xiaomi/mocha/proprietary/vendor/bin/touch_fusion:system/vendor/bin/touch_fusion \
+    vendor/xiaomi/mocha/proprietary/vendor/bin/touch_fusion_rd:system/vendor/bin/touch_fusion_rd \
+    vendor/xiaomi/mocha/proprietary/vendor/bin/ussrd:system/vendor/bin/ussrd \
+    vendor/xiaomi/mocha/proprietary/vendor/firmware/maxim_fp35.bin:system/vendor/firmware/maxim_fp35.bin \
+    vendor/xiaomi/mocha/proprietary/vendor/firmware/touch_fusion.cfg:system/vendor/firmware/touch_fusion.cfg \
     vendor/xiaomi/mocha/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
     vendor/xiaomi/mocha/proprietary/lib/hw/keystore.tegra.so:system/lib/hw/keystore.tegra.so \
     vendor/xiaomi/mocha/proprietary/lib/hw/camera.vendor.tegra.so:system/lib/hw/camera.vendor.tegra.so \
