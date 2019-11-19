@@ -150,8 +150,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/lib/hw/camera.vendor.tegra.so:system/lib/hw/camera.vendor.tegra.so \
     vendor/xiaomi/mocha/proprietary/lib/hw/lights.tegra.so:system/lib/hw/lights.tegra.so \
     vendor/xiaomi/mocha/proprietary/lib/hw/ts.default.so:system/lib/hw/ts.default.so \
-    vendor/xiaomi/mocha/proprietary/lib/hw/sensors.lsm6db0.so:system/lib/libsensors.lsm6db0.so \
-    vendor/xiaomi/mocha/proprietary/lib/hw/sensors.mpu6515.so:system/lib/libsensors.mpu6515.so \
+    vendor/xiaomi/mocha/proprietary/lib/sensors.lsm6db0.so:system/lib/libsensors.lsm6db0.so \
+    vendor/xiaomi/mocha/proprietary/lib/sensors.mpu6515.so:system/lib/libsensors.mpu6515.so \
     vendor/xiaomi/mocha/proprietary/lib/libFaceProc.so:system/lib/libFaceProc.so \
     vendor/xiaomi/mocha/proprietary/lib/libbeautify.so:system/lib/libbeautify.so \
     vendor/xiaomi/mocha/proprietary/lib/libbt-client-api.so:system/lib/libbt-client-api.so \
