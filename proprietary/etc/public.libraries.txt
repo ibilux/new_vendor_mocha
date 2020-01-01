@@ -1,0 +1,7 @@
+libnvomxadaptor.so 32
+libtsec_wrapper.so 32
+libnvos.so 32
+libnvrm.so 32
+libnvrm_graphics.so 32
+libcuda.so 32
+libnvgr.so 32

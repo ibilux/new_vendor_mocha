@@ -29,7 +29,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>proprietary_vendor_nvidia/libtlk_secure_hdcp_up.so at lineage-15.1 · arttttt/proprietary_vendor_nvidia</title>
+  <title>proprietary_vendor_nvidia/libnvmm_manager.so at lineage-15.1 · arttttt/proprietary_vendor_nvidia</title>
     <meta name="description" content="Contribute to arttttt/proprietary_vendor_nvidia development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -39,10 +39,10 @@
     <meta property="og:image" content="https://avatars3.githubusercontent.com/u/23432909?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="arttttt/proprietary_vendor_nvidia" /><meta property="og:url" content="https://github.com/arttttt/proprietary_vendor_nvidia" /><meta property="og:description" content="Contribute to arttttt/proprietary_vendor_nvidia development by creating an account on GitHub." />
 
   <link rel="assets" href="https://github.githubassets.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDc5NTgyNzcyOjBiMTBmNzJlNTQwNzk3ZjdiNGY2YTkzNWFkOWQ1M2E1MzY4ZTIyMWNiMDE0YWQ4ZmUyOTM1M2E5YmU5ZjZiNTA=--81b32fd0dc4b1be638711b6723567e2e71e15d29">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDc5NTgyNzcyOjdhOTAxYzUyNGEzOTE3ZjJkNDAxMjU5NmQwZTJhMWExOTI2NzkwNzU5YThmNTIxMWRhYWZkOGIxYjhmNDBjYjg=--39200f62cdb672ee71844ed53f367e7ecff33743">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-    <meta name="request-id" content="9012:22349:10BEFDFA:1993A909:5E0C98D5" data-pjax-transient>
+    <meta name="request-id" content="8CEE:3BB82:BCE818D:120083D3:5E0C8E14" data-pjax-transient>
 
 
 
@@ -54,7 +54,7 @@
     <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
 
-    <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="9012:22349:10BEFDFA:1993A909:5E0C98D5" /><meta name="octolytics-dimension-region_edge" content="ams" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" /><meta name="octolytics-dimension-visitor_id" content="4756989281921700891" /><meta name="octolytics-actor-id" content="6983818" /><meta name="octolytics-actor-login" content="Dargons10" /><meta name="octolytics-actor-hash" content="3e73573fede1972cf1833cbc0cb225cf9d608e445770eb1cd92cbf16501cce38" />
+    <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="8CEE:3BB82:BCE818D:120083D3:5E0C8E14" /><meta name="octolytics-dimension-region_edge" content="ams" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" /><meta name="octolytics-dimension-visitor_id" content="4756989281921700891" /><meta name="octolytics-actor-id" content="6983818" /><meta name="octolytics-actor-login" content="Dargons10" /><meta name="octolytics-actor-hash" content="3e73573fede1972cf1833cbc0cb225cf9d608e445770eb1cd92cbf16501cce38" />
 
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
@@ -75,7 +75,7 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="M2FjYzYwNDNiZWVhYjM2ODVkYWMxYWZiZjY3NTE5ZmM2YzJjMzdlYjFkMGU0ZTYzZDMyNjgyZGI4ZTlkYmI0OHx7InJlbW90ZV9hZGRyZXNzIjoiOTIuMTkxLjg4LjE0MSIsInJlcXVlc3RfaWQiOiI5MDEyOjIyMzQ5OjEwQkVGREZBOjE5OTNBOTA5OjVFMEM5OEQ1IiwidGltZXN0YW1wIjoxNTc3ODgzODY4LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+      <meta name="js-proxy-site-detection-payload" content="MzE4YWU5NzZkZTA3OGUzNDBmZjYwYzg2ZWM4NjIyN2M1ZjEwOTgyNGI5NGFkYmJiMDcwYjllMmQxODljNGExZHx7InJlbW90ZV9hZGRyZXNzIjoiOTIuMTkxLjg4LjE0MSIsInJlcXVlc3RfaWQiOiI4Q0VFOjNCQjgyOkJDRTgxOEQ6MTIwMDgzRDM6NUUwQzhFMTQiLCJ0aW1lc3RhbXAiOjE1Nzc4ODExMDksImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS,NOTIFY_ON_BLOCK,RELATED_ISSUES,GHE_CLOUD_TRIAL">
 
@@ -91,7 +91,7 @@
   <meta name="octolytics-dimension-user_id" content="23432909" /><meta name="octolytics-dimension-user_login" content="arttttt" /><meta name="octolytics-dimension-repository_id" content="109443900" /><meta name="octolytics-dimension-repository_nwo" content="arttttt/proprietary_vendor_nvidia" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="109443900" /><meta name="octolytics-dimension-repository_network_root_nwo" content="arttttt/proprietary_vendor_nvidia" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/arttttt/proprietary_vendor_nvidia/blob/lineage-15.1/shield/security/lib/libtlk_secure_hdcp_up.so" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/arttttt/proprietary_vendor_nvidia/blob/lineage-15.1/shield/nvmm/lib/libnvmm_manager.so" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -165,7 +165,7 @@
           aria-autocomplete="list"
           aria-controls="jump-to-results"
           aria-label="Search or jump to…"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=2EnjRjWVui3HJGlqNYoEWVQYKTh375bLy/g3WIRxqWwqYhY0HksYLSjqT2LXQMvFvwkNRTDJssZ4gEptn7BbfQ=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=N0ga2Ed6QC+OaCsauaxstcu6qZWGqwmmzS7fjNml1j7FY++qbKTiL2GmDRJbZqMpIKuN6MGNLat+VqK5wmQkLw=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -318,7 +318,7 @@
       <img class="avatar" height="20" width="20" alt="@Dargons10" src="https://avatars2.githubusercontent.com/u/6983818?s=60&amp;v=4" />
       Dargons10
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="v50XIR2zwuq1+PZqdXjNEmMXq7rQhSACQfbKHInvrFyv00TvmpMBj4ELlIiJMwkQTlR+yMwVKZy0k9Oh4+6nlA==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="pig1uXSKDMSPbynJSYlEecLn+85ObDfFPzKxLTKOYIe2ZmZ386rPobucSyu1woB776QuvFL8PlvKV6iQWI9rTw==" />
       <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9V7H8V5h4V3l4 3-4 3zm-2 3H6V3L2 1h8v3h1V1c0-.55-.45-1-1-1H1C.45 0 0 .45 0 1v11.38c0 .39.22.73.55.91L6 16.01V13h4c.55 0 1-.45 1-1V8h-1v4z"/></svg>
         Sign out
@@ -411,7 +411,7 @@
   " data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
     <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit "
-      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:23432909,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:6983818,&quot;client_id&quot;:&quot;1107572876.1565037595&quot;,&quot;originating_request_id&quot;:&quot;9012:22349:10BEFDFA:1993A909:5E0C98D5&quot;,&quot;originating_url&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/blob/lineage-15.1/shield/security/lib/libtlk_secure_hdcp_up.so&quot;,&quot;referrer&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/tree/lineage-15.1/shield/security/lib&quot;}}" data-hydro-click-hmac="c01cb30d20b892cfc988ea65ac2c1fb318a4b91ce84412234cf83d969b660de1">
+      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:23432909,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:6983818,&quot;client_id&quot;:&quot;1107572876.1565037595&quot;,&quot;originating_request_id&quot;:&quot;8CEE:3BB82:BCE818D:120083D3:5E0C8E14&quot;,&quot;originating_url&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/blob/lineage-15.1/shield/nvmm/lib/libnvmm_manager.so&quot;,&quot;referrer&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/tree/lineage-15.1/shield/nvmm/lib&quot;}}" data-hydro-click-hmac="e75cec774e27ec374bec2a19e2c9026dcf9bb444cdbbc83c6b3ce3b263e889ee">
       <div class="d-flex">
         <div class="f6 lh-condensed user-status-header
           d-inline-block v-align-middle
@@ -438,7 +438,7 @@
       </div>
     </summary>
     <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="tlVoYprUWnB09vvh8p/tMgozz1ZyHj9T4kaXAv8wmdcJU9B8LrzvzmwekGKosBzxZNTU4h7/18gJwmaDJq591w==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="LhgOs1Wgx3N5xadb9d/ZryJvzWIuYmAXM8m4qqyHsZuRHrat4chyzWEtzNiv8ChsTIjW1kKDiIzYTUkrdRlVmw==" />
         <div class="Box-header bg-gray border-bottom p-3">
           <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
             <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
@@ -558,17 +558,17 @@
       </li>
       <li class="dropdown-divider" role="none"></li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-01-01T14:34:28+01:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-01-01T13:48:29+01:00">
             in 30 minutes
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-01-01T15:04:28+01:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-01-01T14:18:29+01:00">
             in 1 hour
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-01-01T18:04:28+01:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-01-01T17:18:29+01:00">
             in 4 hours
           </button>
         </li>
@@ -626,10 +626,10 @@
     class="dropdown-item btn-link"
     role="menuitem"
     data-feature-preview-trigger-url="/users/Dargons10/feature_previews"
-    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;client_id&quot;:&quot;1107572876.1565037595&quot;,&quot;originating_request_id&quot;:&quot;9012:22349:10BEFDFA:1993A909:5E0C98D5&quot;,&quot;originating_url&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/blob/lineage-15.1/shield/security/lib/libtlk_secure_hdcp_up.so&quot;,&quot;referrer&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/tree/lineage-15.1/shield/security/lib&quot;,&quot;user_id&quot;:6983818}}"
-    data-feature-preview-close-hmac="ee5e668c46130d1578d2bbcb30c7046d325b6a0ee6ddffa07759a287df6d30f2"
-    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;client_id&quot;:&quot;1107572876.1565037595&quot;,&quot;originating_request_id&quot;:&quot;9012:22349:10BEFDFA:1993A909:5E0C98D5&quot;,&quot;originating_url&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/blob/lineage-15.1/shield/security/lib/libtlk_secure_hdcp_up.so&quot;,&quot;referrer&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/tree/lineage-15.1/shield/security/lib&quot;,&quot;user_id&quot;:6983818}}"
-    data-hydro-click-hmac="e8a24e14702a9d24498993850bf47f687eccbb1dd519ad51fb82a9b26819d5c0"
+    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;client_id&quot;:&quot;1107572876.1565037595&quot;,&quot;originating_request_id&quot;:&quot;8CEE:3BB82:BCE818D:120083D3:5E0C8E14&quot;,&quot;originating_url&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/blob/lineage-15.1/shield/nvmm/lib/libnvmm_manager.so&quot;,&quot;referrer&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/tree/lineage-15.1/shield/nvmm/lib&quot;,&quot;user_id&quot;:6983818}}"
+    data-feature-preview-close-hmac="bde7320ebd9929e9fc5660579b415a4040d0b503551868542807ac82306b9140"
+    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;client_id&quot;:&quot;1107572876.1565037595&quot;,&quot;originating_request_id&quot;:&quot;8CEE:3BB82:BCE818D:120083D3:5E0C8E14&quot;,&quot;originating_url&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/blob/lineage-15.1/shield/nvmm/lib/libnvmm_manager.so&quot;,&quot;referrer&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/tree/lineage-15.1/shield/nvmm/lib&quot;,&quot;user_id&quot;:6983818}}"
+    data-hydro-click-hmac="1cb9c9dfddc957feafd42b4276ba5b3a92d41eaf26dffe2c93a9e66bffacfb1e"
   >
     Feature preview
   </button>
@@ -638,14 +638,14 @@
 
     <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
     <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/1q4ua2FlF0/g3Nluieio+jzCDxa5TWEGZU7sxncWLrvFOt3KqVXOAtwEYdGbGahxbDdTkZ1PBrs8CIOc91Tcg==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="4VRvKBgjA1B52YUdsvmkF5wqJl2OcnNTYGmcxmJr6q7xGjzmnwPANU0q5/9OsmAVsWnzL5Lies2VDIV7CGrhZg==" />
       
       <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
         Sign out
       </button>
-      <input type="text" name="required_field_b630" hidden="hidden" class="form-control" />
-<input type="hidden" name="timestamp" value="1577883868598" class="form-control" />
-<input type="hidden" name="timestamp_secret" value="20875068741d41cedf82fbbc019fbbcc205601ac8851d4be53933e620e9f3de0" class="form-control" />
+      <input type="text" name="required_field_d009" hidden="hidden" class="form-control" />
+<input type="hidden" name="timestamp" value="1577881109406" class="form-control" />
+<input type="hidden" name="timestamp_secret" value="1056b1eae6f212fd65e47b1439bc32afda730b9fea968fd0ae2799dd4d3c033e" class="form-control" />
 
 </form>  </details-menu>
 </details>
@@ -694,10 +694,10 @@
 
   <li>
     
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="y1ynLgBxNrvqDDtdL0Del0YOZEkFru+mg4ZdgIuXI1dLsHAeg9I9jHxKrvy0UWF5t0lFX89wwLu1yE953Jtrcw==" />      <input type="hidden" name="repository_id" value="109443900">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="4IrZ/uEnLfp8qST91mQ1Ms39IfAo/ki3kRxjIR3BWRpgZg7OYoQmzervsVxNdYrcPLoA5uIgZ6qnUnHYSs0RPg==" />      <input type="hidden" name="repository_id" value="109443900">
 
       <details class="details-reset details-overlay select-menu float-left">
-        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:109443900,&quot;client_id&quot;:&quot;1107572876.1565037595&quot;,&quot;originating_request_id&quot;:&quot;9012:22349:10BEFDFA:1993A909:5E0C98D5&quot;,&quot;originating_url&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/blob/lineage-15.1/shield/security/lib/libtlk_secure_hdcp_up.so&quot;,&quot;referrer&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/tree/lineage-15.1/shield/security/lib&quot;,&quot;user_id&quot;:6983818}}" data-hydro-click-hmac="3190116a0883bca4f845fea50df928f6c15c650096797b6dc39a95742460cebd" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:109443900,&quot;client_id&quot;:&quot;1107572876.1565037595&quot;,&quot;originating_request_id&quot;:&quot;8CEE:3BB82:BCE818D:120083D3:5E0C8E14&quot;,&quot;originating_url&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/blob/lineage-15.1/shield/nvmm/lib/libnvmm_manager.so&quot;,&quot;referrer&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/tree/lineage-15.1/shield/nvmm/lib&quot;,&quot;user_id&quot;:6983818}}" data-hydro-click-hmac="f06efc0ad7d7b11e1a8a67fe0cd6b90cec1a845bfe53f07311c2b5b4f5d6a90e" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
               Watch
           </span>
@@ -768,9 +768,9 @@
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/arttttt/proprietary_vendor_nvidia/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="fwWUiKyAIGQZxbNbfBfR9GuJY/Wf2QY6Ix5bmXDHh1MUBagNeZeEC0UFvECTm4gA04CGq+4K8AJwlIZdOAqbXw==" />
+    <form class="starred js-social-form" action="/arttttt/proprietary_vendor_nvidia/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="b1A2plzNxsDxjve9q3TziPdQeW8+Ed4M/uODsnsORiIEUAojidpir61O+KZE+Kp8T1mcMU/CKDStaV52M8NaLg==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar arttttt/proprietary_vendor_nvidia" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:109443900,&quot;client_id&quot;:&quot;1107572876.1565037595&quot;,&quot;originating_request_id&quot;:&quot;9012:22349:10BEFDFA:1993A909:5E0C98D5&quot;,&quot;originating_url&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/blob/lineage-15.1/shield/security/lib/libtlk_secure_hdcp_up.so&quot;,&quot;referrer&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/tree/lineage-15.1/shield/security/lib&quot;,&quot;user_id&quot;:6983818}}" data-hydro-click-hmac="ae4e78a5fbd41752145aa5e9f49e67ff93c8214789296c17039445f90ecdfa04" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg aria-label="star" height="16" class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar arttttt/proprietary_vendor_nvidia" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:109443900,&quot;client_id&quot;:&quot;1107572876.1565037595&quot;,&quot;originating_request_id&quot;:&quot;8CEE:3BB82:BCE818D:120083D3:5E0C8E14&quot;,&quot;originating_url&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/blob/lineage-15.1/shield/nvmm/lib/libnvmm_manager.so&quot;,&quot;referrer&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/tree/lineage-15.1/shield/nvmm/lib&quot;,&quot;user_id&quot;:6983818}}" data-hydro-click-hmac="3f29c04fffd4311e52babbe0933592f8a1059a4f5aa8863dbbac94a28c8f6e98" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg aria-label="star" height="16" class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
         Unstar
 </button>        <a class="social-count js-social-count" href="/arttttt/proprietary_vendor_nvidia/stargazers"
@@ -778,9 +778,9 @@
            2
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/arttttt/proprietary_vendor_nvidia/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="w0zaQp1jpqUkZJifBsSkUrcspZTTD2bTxVgmNusPboCSv1OfXCp4kIIiiELN0zEOX0bXUITfnDf0ThxRs65huQ==" />
+    <form class="unstarred js-social-form" action="/arttttt/proprietary_vendor_nvidia/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="63f6QNqIEbAXaeaGtPcyzd4ioUsVOUH5eMiezp/V14u6hHOdG8HPhbEv9lt/4KeRNkjTj0Lpux1J3qSpx3TYsg==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star arttttt/proprietary_vendor_nvidia" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:109443900,&quot;client_id&quot;:&quot;1107572876.1565037595&quot;,&quot;originating_request_id&quot;:&quot;9012:22349:10BEFDFA:1993A909:5E0C98D5&quot;,&quot;originating_url&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/blob/lineage-15.1/shield/security/lib/libtlk_secure_hdcp_up.so&quot;,&quot;referrer&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/tree/lineage-15.1/shield/security/lib&quot;,&quot;user_id&quot;:6983818}}" data-hydro-click-hmac="a29448ef07c5229973e2929cc3147a530dfdefb6404ac10106f84a2661365a3a" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg aria-label="star" height="16" class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star arttttt/proprietary_vendor_nvidia" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:109443900,&quot;client_id&quot;:&quot;1107572876.1565037595&quot;,&quot;originating_request_id&quot;:&quot;8CEE:3BB82:BCE818D:120083D3:5E0C8E14&quot;,&quot;originating_url&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/blob/lineage-15.1/shield/nvmm/lib/libnvmm_manager.so&quot;,&quot;referrer&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/tree/lineage-15.1/shield/nvmm/lib&quot;,&quot;user_id&quot;:6983818}}" data-hydro-click-hmac="c0e661c20156f6b4b0407a56d5a3af6312dd6cea8ab86b8b900f1ab6c4a95b45" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg aria-label="star" height="16" class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
         Star
 </button>        <a class="social-count js-social-count" href="/arttttt/proprietary_vendor_nvidia/stargazers"
@@ -793,7 +793,7 @@
 
   <li>
           <details class="details-reset details-overlay details-overlay-dark d-inline-block float-left">
-            <summary class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:109443900,&quot;client_id&quot;:&quot;1107572876.1565037595&quot;,&quot;originating_request_id&quot;:&quot;9012:22349:10BEFDFA:1993A909:5E0C98D5&quot;,&quot;originating_url&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/blob/lineage-15.1/shield/security/lib/libtlk_secure_hdcp_up.so&quot;,&quot;referrer&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/tree/lineage-15.1/shield/security/lib&quot;,&quot;user_id&quot;:6983818}}" data-hydro-click-hmac="cb29853b5f799e03a43ae5c19a9a5bcca17980d676e41c131e8b7abc63d2e6d5" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" title="Fork your own copy of arttttt/proprietary_vendor_nvidia to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <summary class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:109443900,&quot;client_id&quot;:&quot;1107572876.1565037595&quot;,&quot;originating_request_id&quot;:&quot;8CEE:3BB82:BCE818D:120083D3:5E0C8E14&quot;,&quot;originating_url&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/blob/lineage-15.1/shield/nvmm/lib/libnvmm_manager.so&quot;,&quot;referrer&quot;:&quot;https://github.com/arttttt/proprietary_vendor_nvidia/tree/lineage-15.1/shield/nvmm/lib&quot;,&quot;user_id&quot;:6983818}}" data-hydro-click-hmac="07ba66e97f8b2fb603b41fbc75da337af30120b86586fc29a0c30fe4d7000b9b" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" title="Fork your own copy of arttttt/proprietary_vendor_nvidia to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
               Fork
 </summary>            <details-dialog
               class="anim-fade-in fast Box Box--overlay d-flex flex-column"
@@ -955,9 +955,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/arttttt/proprietary_vendor_nvidia/blob/433693b2e4a40a1d41d92dc9eb8faa21ef7b49f0/shield/security/lib/libtlk_secure_hdcp_up.so">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/arttttt/proprietary_vendor_nvidia/blob/433693b2e4a40a1d41d92dc9eb8faa21ef7b49f0/shield/nvmm/lib/libnvmm_manager.so">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v21:79b76e443aa111bb00b7526da22dd50e -->
+    <!-- blob contrib key: blob_contributors:v21:1137049e0e8791d85e009d675795b2a1 -->
       
 
     <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-column flex-md-row">
@@ -971,7 +971,7 @@
     <span class="css-truncate-target" data-menu-button>lineage-15.1</span>
   </summary>
 
-  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/arttttt/proprietary_vendor_nvidia/refs/lineage-15.1/shield/security/lib/libtlk_secure_hdcp_up.so?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/arttttt/proprietary_vendor_nvidia/refs/lineage-15.1/shield/nvmm/lib/libnvmm_manager.so?source_action=show&amp;source_controller=blob" preload>
     <include-fragment class="select-menu-loading-overlay anim-pulse">
       <svg height="32" class="octicon octicon-octoface" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
     </include-fragment>
@@ -985,13 +985,13 @@
                 data-hotkey="t">
             Find file
           </a>
-          <clipboard-copy value="shield/security/lib/libtlk_secure_hdcp_up.so" class="btn btn-sm BtnGroup-item">
+          <clipboard-copy value="shield/nvmm/lib/libnvmm_manager.so" class="btn btn-sm BtnGroup-item">
             Copy path
           </clipboard-copy>
         </div>
       </span>
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/arttttt/proprietary_vendor_nvidia"><span>proprietary_vendor_nvidia</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/arttttt/proprietary_vendor_nvidia/tree/lineage-15.1/shield"><span>shield</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/arttttt/proprietary_vendor_nvidia/tree/lineage-15.1/shield/security"><span>security</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/arttttt/proprietary_vendor_nvidia/tree/lineage-15.1/shield/security/lib"><span>lib</span></a></span><span class="separator">/</span><strong class="final-path">libtlk_secure_hdcp_up.so</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/arttttt/proprietary_vendor_nvidia"><span>proprietary_vendor_nvidia</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/arttttt/proprietary_vendor_nvidia/tree/lineage-15.1/shield"><span>shield</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/arttttt/proprietary_vendor_nvidia/tree/lineage-15.1/shield/nvmm"><span>nvmm</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/arttttt/proprietary_vendor_nvidia/tree/lineage-15.1/shield/nvmm/lib"><span>lib</span></a></span><span class="separator">/</span><strong class="final-path">libnvmm_manager.so</strong>
       </h2>
 
       <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
@@ -1001,7 +1001,7 @@
               data-hotkey="t">
           Find file
         </a>
-        <clipboard-copy value="shield/security/lib/libtlk_secure_hdcp_up.so" class="btn btn-sm BtnGroup-item">
+        <clipboard-copy value="shield/nvmm/lib/libnvmm_manager.so" class="btn btn-sm BtnGroup-item">
           Copy path
         </clipboard-copy>
       </div>
@@ -1011,7 +1011,7 @@
 
 
 
-    <include-fragment src="/arttttt/proprietary_vendor_nvidia/contributors/lineage-15.1/shield/security/lib/libtlk_secure_hdcp_up.so" class="Box Box--condensed commit-loader">
+    <include-fragment src="/arttttt/proprietary_vendor_nvidia/contributors/lineage-15.1/shield/nvmm/lib/libnvmm_manager.so" class="Box Box--condensed commit-loader">
       <div class="Box-body bg-blue-light f6">
         Fetching contributors&hellip;
       </div>
@@ -1030,20 +1030,20 @@
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 
-    22.2 KB
+    10.2 KB
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/arttttt/proprietary_vendor_nvidia/raw/lineage-15.1/shield/security/lib/libtlk_secure_hdcp_up.so">Download</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/arttttt/proprietary_vendor_nvidia/commits/lineage-15.1/shield/security/lib/libtlk_secure_hdcp_up.so">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/arttttt/proprietary_vendor_nvidia/raw/lineage-15.1/shield/nvmm/lib/libnvmm_manager.so">Download</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/arttttt/proprietary_vendor_nvidia/commits/lineage-15.1/shield/nvmm/lib/libnvmm_manager.so">History</a>
     </div>
 
 
     <div>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/arttttt/proprietary_vendor_nvidia/delete/lineage-15.1/shield/security/lib/libtlk_secure_hdcp_up.so" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ET4Qo/mlKtTFaviRKcsmrSCkJuhtqbpiTdrjosYlf3O5uldZxh/be0yro6qtDjoeczflkA3vT1hXM1dZJ/1QBg==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/arttttt/proprietary_vendor_nvidia/delete/lineage-15.1/shield/nvmm/lib/libnvmm_manager.so" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="NqDyQUwvssy9FROjU5oueus+c7sKLgDWeybJfA2gdI/D0v1SViY0UD5qNDmqbBS17IGSukWPvlYSaE9DBhG1iQ==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and delete the file" data-disable-with>
               <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -1059,7 +1059,7 @@
 
   <div itemprop="text" class="Box-body p-0 blob-wrapper data type-text ">
       <div class="text-center p-3">
-          <a href="/arttttt/proprietary_vendor_nvidia/blob/lineage-15.1/shield/security/lib/libtlk_secure_hdcp_up.so?raw=true">View raw</a>
+          <a href="/arttttt/proprietary_vendor_nvidia/blob/lineage-15.1/shield/nvmm/lib/libnvmm_manager.so?raw=true">View raw</a>
       </div>
   </div>
 
