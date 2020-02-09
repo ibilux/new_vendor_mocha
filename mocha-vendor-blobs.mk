@@ -73,6 +73,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/vendor/lib/egl/libEGL_tegra.so:system/vendor/lib/egl/libEGL_tegra.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/egl/libGLESv1_CM_tegra.so:system/vendor/lib/egl/libGLESv1_CM_tegra.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/egl/libGLESv2_tegra.so:system/vendor/lib/egl/libGLESv2_tegra.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/egl/libEGL_tegra_impl.so:system/vendor/lib/egl/libEGL_tegra_impl.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/egl/libGLESv1_CM_tegra_impl.so:system/vendor/lib/egl/libGLESv1_CM_tegra_impl.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/egl/libGLESv2_tegra_impl.so:system/vendor/lib/egl/libGLESv2_tegra_impl.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libcuda.so:system/vendor/lib/libcuda.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvddk_2d.so:system/vendor/lib/libnvddk_2d.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvmm_contentpipe.so:system/vendor/lib/libnvmm_contentpipe.so \
