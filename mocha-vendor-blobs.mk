@@ -16,11 +16,12 @@
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/bin/macaddr.sh:system/bin/macaddr.sh \
-     vendor/xiaomi/mocha/proprietary/bin/run_ss_status.sh:system/bin/run_ss_status.sh \
-    vendor/xiaomi/mocha/proprietary/etc/bluetooth/bdaddr:system/etc/bluetooth/bdaddr \
+    vendor/xiaomi/mocha/proprietary/bin/run_ss_status.sh:system/bin/run_ss_status.sh \
+    vendor/xiaomi/mocha/proprietary/bin/sensor_select.sh:system/bin/sensor_select.sh \
+    vendor/xiaomi/mocha/proprietary/bin/run_ss_status.sh:system/bin/run_ss_status.sh \
     vendor/xiaomi/mocha/proprietary/etc/enctune.conf:system/etc/enctune.conf \
     vendor/xiaomi/mocha/proprietary/etc/public.libraries.txt:system/etc/public.libraries.txt \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/BCM4350C0.hcd:system/etc/firmware/BCM4350C0.hcd \
+    vendor/xiaomi/mocha/proprietary/etc/firmware/bcm4350.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4350.hcd \
     vendor/xiaomi/mocha/proprietary/etc/firmware/bq27520_atl.bqfs:system/etc/firmware/bq27520_atl.bqfs \
     vendor/xiaomi/mocha/proprietary/etc/firmware/bq27520_lgc.bqfs:system/etc/firmware/bq27520_lgc.bqfs \
     vendor/xiaomi/mocha/proprietary/etc/firmware/lp5521:system/etc/firmware/lp5521 \
