@@ -124,9 +124,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libgov_boot.so:system/vendor/lib/libgov_boot.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libgov_camera.so:system/vendor/lib/libgov_camera.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libgov_combinator.so:system/vendor/lib/libgov_combinator.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptXHD_encoder.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptX_encoder.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libgov_force.so:system/vendor/lib/libgov_force.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libgov_generic.so:system/vendor/lib/libgov_generic.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libgov_gpucompute.so:system/vendor/lib/libgov_gpucompute.so \
