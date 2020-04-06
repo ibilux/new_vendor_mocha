@@ -11,7 +11,11 @@ md5serialno=$(echo -n $Serialno | md5sum)
 
 checkBkbPartition() {
 	echo "$TAG: attempt to read BKB partition"
-}
+	#local BKB=$(cat /dev/block/platform/sdhci-tegra.3/by-name/BKB | grep -a XIAOMI)
+	#if [ "$BKB" = "" ]; then
+		bkbIsBroken=1
+	#fi;
+} 
 
 generateBtMac() {
 	echo "$TAG: generating bt mac address"
